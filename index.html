@@ -1,223 +1,102 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html>
 <html>
-	<body background="https://picd.zhimg.com/v2-09e18d5b461023a14eca3387c56bb27b_1440w.jpg"></body>
 
-	<a href="./xin/index.html"><h3>love you></a>
-		<!-- <a href="https://www.runoob.com/" target="_blank">访问菜鸟教程!</a> -->
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>❤❤❤❤❤❤</title>
-		<link type="text/css" rel="stylesheet" href="./renxi/default.css">
-		<script type="text/javascript" src="./renxi/jquery.min.js"></script>
-		<script type="text/javascript" src="./renxi/jscex.min.js"></script>
-		<script type="text/javascript" src="./renxi/jscex-parser.js"></script>
-		<script type="text/javascript" src="./renxi/jscex-jit.js"></script>
-		<script type="text/javascript" src="./renxi/jscex-builderbase.min.js"></script>
-		<script type="text/javascript" src="./renxi/jscex-async.min.js"></script>
-		<script type="text/javascript" src="./renxi/jscex-async-powerpack.min.js"></script>
-		<script type="text/javascript" src="./renxi/functions.js" charset="utf-8"></script>
-		<script type="text/javascript" src="./renxi/love.js" charset="utf-8"></script>
-		<style type="text/css"></style>
-		<script>
-			var str;
-			str = prompt("请输入你的名字,有惊喜！");
-			console.log(str);
-			window.onload = function() {
-				if (str != null && str !="") {
-					//document.getElementById("ai").innerHTML=str;
-					var all = document.getElementsByClassName("ai"); //返回的是数组
-					for (var i = 0; i < all.length; i++) {
-						all[i].innerHTML = str;
-					}
-				}
-			}
-		</script>
-	</head>
+<head>
+	<meta charset="utf-8">
+	<title>爱心表白大全</title>
+	<body background="https://pic1.zhimg.com/v2-5b5c60ed3525f648e34fd4c05570a124_b.jpg"></body>
+</head>
 
+<body>
 
-	<body>
-		<audio autoplay="autopaly" loop="loop">
-		<source src="0.m4a" type="audio/mp3" /></audio>
-		<div id="main">
-			<!-- <div id="error">本页面采用HTML5编辑，目前您的浏览器无法显示，请换成谷歌(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器，或者其他游览器的最新版本。</div> -->
-			<div id="wrap">
-				<div id="text">
-					<div id="code">
-						<font color: "#e5d1d6" size="4"><b><i>
-						<span class="say">不管你能否看的到，但是我还是要把这些心里话说出来！</span><br>
-						<span class="say"> </span><br>
-						<span class="say"><span class="ai" >对的人 </span>，昨天太近，明天太远。选在今日，对你告白！</span><br>
-						<span class="say"> </span><br>
-						<span class="say"> 对你的依赖，如同鱼儿离不开海洋，如同植物离不开阳光。</span><br>
-						<span class="say"> </span><br>
-						<span class="say">给我一次机会，写满我们的幸福人生。</span><br>
-						<span class="say"> </span><br>
-						<span class="say">睁开我的眼睛，我的眼里只有你！</span><br>
-						<span class="say"> </span><br>
-						<span class="say">闭上我的眼睛，我的眼里只有你！</span><br>
-						<span class="say"> </span><br>
-						<span class="say">带上眼镜，我的四个眼里只有你！</span><br>
-						<span class="say"> </span><br>
-						<span class="say"><span class="ai" >亲爱的 </span>，跟我走吧，我偷电动车养你！</span><br>
-						<span class="say"></span><br>
-						<span class="say">套路都是我学的，但爱你是真的！ </span><br>
-						<span class="say"> </span><br>
-						<span class="say"> -- dengbowang--</span>
-						</i></b>
-						</font>
-					</div>
-				</div>
-				<div id="clock-box">
-					<span><font color="#e5d1d6"><span class="ai" >亲爱的 </span>，我等你已经是</font></span>
-					<div id="clock"></div>
-				</div>
-				<canvas id="canvas" width="1100" height="680"></canvas>
-			</div>
+	<h1 align="center">❤❤❤❤❤❤❤❤❤❤</h1>
+
+	<!--1 --------------------------------------------------------------------------------------------------------------------------------------------	 -->
+	<a href="./1/index.html">
+		<h1 align="center">1.爱心树</h1>
+		<div align="center">
+			<img src="https://pic2.zhimg.com/80/v2-f9b0aa1dc2a605e6b832bf21509ee961_1440w.webp"     width="1043" height="500"/>
 		</div>
-		<script>
-			(function() {
-				var canvas = $('#canvas');
-				if (!canvas[0].getContext) {
-					$("#error").show();
-					return false;
-				}
-				var width = canvas.width();
-				var height = canvas.height();
-				canvas.attr("width", width);
-				canvas.attr("height", height);
-				var opts = {
-					seed: {
-						x: width / 2 - 20,
-						color: "rgb(190, 26, 37)",
-						scale: 2
-					},
-					branch: [
-						[535, 680, 570, 250, 500, 200, 30, 100, [
-							[540, 500, 455, 417, 340, 400, 13, 100, [
-								[450, 435, 434, 430, 394, 395, 2, 40]
-							]],
-							[550, 445, 600, 356, 680, 345, 12, 100, [
-								[578, 400, 648, 409, 661, 426, 3, 80]
-							]],
-							[539, 281, 537, 248, 534, 217, 3, 40],
-							[546, 397, 413, 247, 328, 244, 9, 80, [
-								[427, 286, 383, 253, 371, 205, 2, 40],
-								[498, 345, 435, 315, 395, 330, 4, 60]
-							]],
-							[546, 357, 608, 252, 678, 221, 6, 100, [
-								[590, 293, 646, 277, 648, 271, 2, 80]
-							]]
-						]]
-					],
-					bloom: {
-						num: 700,
-						width: 1080,
-						height: 650,
-					},
-					footer: {
-						width: 1200,
-						height: 5,
-						speed: 10,
-					}
-				};
-				var tree = new Tree(canvas[0], width, height, opts);
-				var seed = tree.seed;
-				var foot = tree.footer;
-				var hold = 1;
-				canvas.click(function(e) {
-					var offset = canvas.offset(),
-						x, y;
-					x = e.pageX - offset.left;
-					y = e.pageY - offset.top;
-					if (seed.hover(x, y)) {
-						hold = 0;
-						canvas.unbind("click");
-						canvas.unbind("mousemove");
-						canvas.removeClass('hand');
-					}
-				}).mousemove(function(e) {
-					var offset = canvas.offset(),
-						x, y;
-					x = e.pageX - offset.left;
-					y = e.pageY - offset.top;
-					canvas.toggleClass('hand', seed.hover(x, y));
-				});
-				var seedAnimate = eval(Jscex.compile("async", function() {
-					seed.draw();
-					while (hold) {
-						$await(Jscex.Async.sleep(10));
-					}
-					while (seed.canScale()) {
-						seed.scale(0.95);
-						$await(Jscex.Async.sleep(10));
-					}
-					while (seed.canMove()) {
-						seed.move(0, 2);
-						foot.draw();
-						$await(Jscex.Async.sleep(10));
-					}
-				}));
-				var growAnimate = eval(Jscex.compile("async", function() {
-					do {
-						tree.grow();
-						$await(Jscex.Async.sleep(10));
-					}
-					while (tree.canGrow());
-				}));
-				var flowAnimate = eval(Jscex.compile("async", function() {
-					do {
-						tree.flower(2);
-						$await(Jscex.Async.sleep(10));
-					}
-					while (tree.canFlower());
-				}));
-				var moveAnimate = eval(Jscex.compile("async", function() {
-					tree.snapshot("p1", 240, 0, 610, 680);
-					while (tree.move("p1", 500, 0)) {
-						foot.draw();
-						$await(Jscex.Async.sleep(10));
-					}
-					foot.draw();
-					tree.snapshot("p2", 500, 0, 610, 680);
-					canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
-					canvas.css("background", "#ffe");
-					$await(Jscex.Async.sleep(300));
-					canvas.css("background", "none");
-				}));
-				var jumpAnimate = eval(Jscex.compile("async", function() {
-					var ctx = tree.ctx;
-					while (true) {
-						tree.ctx.clearRect(0, 0, width, height);
-						tree.jump();
-						foot.draw();
-						$await(Jscex.Async.sleep(25));
-					}
-				}));
-				var textAnimate = eval(Jscex.compile("async", function() {
-					var together = new Date();
-					together.setFullYear(2002, (2 - 1), (15 - 1));
-					together.setHours(22);
-					together.setMinutes(00);
-					together.setSeconds(0);
-					together.setMilliseconds(0);
-					$("#code").show().typewriter();
-					$("#clock-box").fadeIn(500);
-					while (true) {
-						timeElapse(together);
-						$await(Jscex.Async.sleep(1000));
-					}
-				}));
-				var runAsync = eval(Jscex.compile("async", function() {
-					$await(seedAnimate());
-					$await(growAnimate());
-					$await(flowAnimate());
-					$await(moveAnimate());
-					textAnimate().start();
-					$await(jumpAnimate());
-				}));
-				runAsync().start();
-			})();
-		</script>
-	</body>
+		<!-- 2--------------------------------------------------------------------------------------------------------------------------------------------	 -->
+		<a href="./2/index.html">
+			<h1 align="center">2.动态爱心</h1>
+			<div align="center">
+				<img src="https://pic1.zhimg.com/80/v2-8a3cc5f5857160a90ceb637439b9c48c_1440w.webp"      width="1043" height="500"/>
+
+				<!--3 --------------------------------------------------------------------------------------------------------------------------------------------	 -->
+				<a href="./3/index.html">
+					<h1 align="center">3.爱心线条</h1>
+					<div align="center">
+						<img src="https://pic2.zhimg.com/80/v2-10c90a9443df8a68ba8cc98fb744c3a5_1440w.webp"      width="1043" height="500"/>
+
+						<!-- 4--------------------------------------------------------------------------------------------------------------------------------------------	 -->
+						<a href="./4/index.html">
+							<h1 align="center">4.自动下滑信</h1>
+							<div align="center">
+								<img src="https://pic3.zhimg.com/80/v2-aba1ad7697f6e0c111e90728c9f357aa_1440w.webp"
+									     width="1043" height="500"/>
+
+								<!-- 5--------------------------------------------------------------------------------------------------------------------------------------------	 -->
+								<a href="./5/index.html">
+									<h1 align="center">5</h1>
+									<div align="center">
+										<img src="https://pic3.zhimg.com/80/v2-0ac2a2079485a8760d276f4c8136a05a_1440w.webp"
+											     width="1043" height="500"/>
+
+										<!-- 6--------------------------------------------------------------------------------------------------------------------------------------------	 -->
+										<a href="./6/index.html">
+											<h1 align="center">6</h1>
+											<div align="center">
+												<img src="https://pic3.zhimg.com/80/v2-9ef05037fc6063aa3219618be9070866_1440w.webp"
+													     width="1043" height="500"/>
+
+												<!--7 --------------------------------------------------------------------------------------------------------------------------------------------	 -->
+												<a href="./7/index.html">
+													<h1 align="center">7</h1>
+													<div align="center">
+														<img src="https://pic2.zhimg.com/80/v2-b375555041e8ac28d1228036ac77d725_1440w.webp"
+															     width="1043" height="500"/>
+														<!-- 8--------------------------------------------------------------------------------------------------------------------------------------------	 -->
+														<a href="./8/index.html">
+															<h1 align="center">8</h1>
+															<div align="center">
+																<img src="https://pic4.zhimg.com/80/v2-6853ed7ec16f90fc38645216c45601e3_1440w.webp"
+																	     width="1043" height="500"/>
+																<!--9 --------------------------------------------------------------------------------------------------------------------------------------------	 -->
+																<a href="./9/index.html">
+																	<h1 align="center">9</h1>
+																	<div align="center">
+																		<img src="https://pic3.zhimg.com/80/v2-5988099ca519e152ab89ef41fce1f44e_1440w.webp"
+																			     width="1043" height="500"/>
+																		<!--10 --------------------------------------------------------------------------------------------------------------------------------------------	 -->
+																		<a href="./10/index.html">
+																			<h1 align="center">10</h1>
+																			<div align="center">
+																				<img src="https://pic1.zhimg.com/80/v2-ff47305f6524484e8bf7440f26e8b1e0_1440w.webp"
+																					     width="1043" height="500"/>
+
+
+																		<!--10 --------------------------------------------------------------------------------------------------------------------------------------------	 -->
+																		<a href="./11/index.html">
+																			<h1 align="center">11</h1>
+																			<div align="center">
+																				<img src="https://pic3.zhimg.com/80/v2-5c36dff95678021c6782a59b632e62f6_1440w.webp"
+																					     width="1043" height="500"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
 
 </html>
